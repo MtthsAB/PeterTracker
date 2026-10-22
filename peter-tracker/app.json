@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Peter Tracker",
+    "slug": "peter-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.petertracker.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1120",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.petertracker.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "SUA_CHAVE"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Usamos sua localização para mostrar Peter no mapa.",
+          "locationWhenInUsePermission": "Usamos sua localização para mostrar Peter no mapa."
+        }
+      ]
+    ],
+    "scheme": "petertracker",
+    "backgroundColor": "#0b1120"
+  }
+}
