@@ -84,6 +84,7 @@ PeterTracker/
 | Natália Bortolosso |
 | Patrick de Aguiar Pereira |
 | Tomás Winkler Angeli |
+| Vinicius Toigo de Freitas |
 
 **Professor(a):** Giovanni Guizzo Da Rocha
 
